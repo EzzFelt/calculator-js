@@ -11,3 +11,9 @@ document.querySelectorAll(".charKey").forEach(function (charKeyBtn) {
       input.value += value
     })
   })
+
+// Evento para limpar o input
+document.getElementById("clear").addEventListener("click", () => {
+    input.value = ""
+    input.focus()
+})
