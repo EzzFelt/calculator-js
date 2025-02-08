@@ -51,5 +51,5 @@ Entre no diretório do projeto
 
 ## 📜 Licença
 
-Como dito anteriormente, é foi projeto prático com fins educacionais. Você pode utilizá-lo e modificá-lo livremente.
+Como dito anteriormente, foi projeto prático com fins educacionais. Você pode utilizá-lo e modificá-lo livremente.
 
