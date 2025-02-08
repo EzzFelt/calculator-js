@@ -37,9 +37,10 @@ input.addEventListener("keydown", function (ev){
 
 })
 
-
+// Pegando o elemento e chamando a função calculate ao clicar.
 document.getElementById("equal").addEventListener("click", calculate)
 
+// Função cálculo usando eval
 function calculate() {
 
   resultInput.value = "ERROR"
