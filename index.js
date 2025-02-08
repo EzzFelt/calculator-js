@@ -17,3 +17,18 @@ document.getElementById("clear").addEventListener("click", () => {
     input.value = ""
     input.focus()
 })
+
+// Evento para quando apertar uma tecla que esteja no array da calculadora, adicione ao input
+input.addEventListener("keydown", function (ev){
+    ev.preventDefault()
+
+    if(allowedKeys.includes(ev.key)){
+        input.value += ev.key
+        return
+    }
+
+    if(ev.key === "Backspace") {
+        input.value += input.value.slice(0, -1)
+    }
+
+})
